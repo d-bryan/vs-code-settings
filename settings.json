@@ -1,0 +1,38 @@
+{
+    // Theme settings
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+
+    // Bracket Pair Colorizer Extension Settings
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5",
+        "backgroundColor : {color}; opacity: 0.7",
+    ],
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "rgb(255, 118, 27)", // ORANGE
+            "rgb(186, 25, 201)", // PURPLE
+            "rgb(156, 46, 46)", // MAROON
+            "rgb(86, 244, 250)", // LIGHT BLUE
+            "rgb(243, 240, 75)", // YELLOW
+        ],
+        "Red"
+    ],
+
+    // Disable the default match brackets from VS Code
+    "editor.matchBrackets": false,
+
+    // Change the view for settings in VS Code
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,   
+}
